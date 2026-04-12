@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <PackageId>SmartRateLimiter.NET</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>YourName</Authors>
+
+    <Description>Production-ready rate limiter with memory, Redis, and hybrid support</Description>
+
+    <PackageTags>ratelimit aspnetcore middleware redis throttling</PackageTags>
+
+    <RepositoryUrl>https://github.com/shivareddy1240/SmartRateLimiter</RepositoryUrl>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.12.14" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+</Project>

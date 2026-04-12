@@ -1,0 +1,6 @@
+@SmartRateLimiter.Demo_HostAddress = http://localhost:5092
+
+GET {{SmartRateLimiter.Demo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
