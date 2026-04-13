@@ -9,7 +9,7 @@
 
     <PackageId>SmartRateLimiter.NET</PackageId>
     <Version>1.0.0</Version>
-    <Authors>YourName</Authors>
+    <Authors>We - WithEveryone</Authors>
 
     <Description>Production-ready rate limiter with memory, Redis, and hybrid support</Description>
 
